@@ -18,6 +18,7 @@
   </nav>
 
   <form action="">
+  <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
     <label for="title">Add title: </label>
     <input type="text" id="title" name="title" required>
 
@@ -29,6 +30,13 @@
 
     <label for="email-content">Email contents: </label>
     <input type="text"><textarea></textarea>
+    <input type="text" id="sender-name" name="sender-name" required>
+
+    <label for="attachment">Add attachment: </label>
+    <input type="file" id="attachment" name="attachment" required>
+
+    <label for="email-content">Email contents: </label>
+    <textarea id="email-content" name ="email-content" required></textarea>
 
     <label for="email-time">Schedule email time: </label>
     <input type="time">
