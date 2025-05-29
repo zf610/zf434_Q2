@@ -12,6 +12,11 @@ body {
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+  border: 1px solid black;
+}
+
 form {
   display: flex;
   flex-direction: column;
